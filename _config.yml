@@ -12,8 +12,8 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Weihong Lin # add your name
 author-img: linwh.jpg # add your photo
 about-author: I am an undergraduate students focusing on Re-ID. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-twitter:  # add your Twitter handle
+social-facebook:  # add your Facebook handle
 social-github: linwh8 # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: 675176683@qq.com # add your Email address
