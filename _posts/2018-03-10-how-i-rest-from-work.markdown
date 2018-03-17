@@ -6,24 +6,97 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: i-rest.jpg # Add image post (optional)
 tags: [Holidays, Hawaii]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
+### 1. 简答题
 
-## Plaid ramps kitsch woke pork belly
-90's yr crucifix, selvage 8-bit listicle forage cliche shoreditch hammock microdosing synth. Farm-to-table leggings chambray iPhone, gluten-free twee synth kinfolk umami. Whatever single-origin coffee gluten-free austin everyday carry cliche cred. Plaid ramps kitsch woke pork belly organic. Trust fund whatever coloring book kombucha brooklyn. Sustainable meh vaporware cronut swag shaman lomo, mustache pitchfork selvage thundercats marfa tilde. Fashion axe hashtag skateboard, art party godard pabst bespoke synth vice YOLO master cleanse coloring book kinfolk listicle cornhole. Try-hard mixtape umami fanny pack man bun gastropub franzen tbh. Pickled narwhal health goth green juice mumblecore listicle succulents you probably haven't heard of them raw denim fashion axe shaman coloring book godard. Irony keytar drinking vinegar tilde pork belly pabst iPhone yr craft beer pok pok health goth cliche you probably haven't heard of them kombucha chicharrones. Direct trade hella roof party chia. Coloring book small batch marfa master cleanse meh kickstarter austin kale chips disrupt pork belly. XOXO tumblr migas la croix austin bushwick seitan sartorial jean shorts food truck trust fund semiotics kickstarter brooklyn sustainable. Umami knausgaard mixtape marfa. Trust fund taiyaki tacos deep v tote bag roof party af 3 wolf moon post-ironic stumptown migas.
+#### (1) 简述瀑布模型、增量模型、螺旋模型(含原型方法)的优缺点
 
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+**瀑布模型**
 
-Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
+- **优点：**
+  1. 降低软件开发的复杂程度，提高软件开发过程的透明性，提高软件开发过程的可管理性
+  2. 推迟软件实现，强调在软件实现前必须进行分析和设计工作
+  3. 以项目的阶段评审和文档控制为手段有效地对整个开发过程进行指导，保证了阶段之间的正确衔接，能够及时发现并纠正开发过程中存在的缺陷，使产品达到预期的质量要求 
+- **缺点：**
+  1. 强调过程活动的线性顺序
+  2. 缺乏灵活性，特别是无法解决软件需求不明确或不准确的问题
+  3. 风险控制能力较弱
+  4. 瀑布模型中的软件活动是文档驱动的，当阶段之间规定过多的文档时，会极大地增加系统的工作量
+  5. 管理人员如果仅仅以文档的完成情况来评估项目完成进度，往往会产生错误的结论
 
->Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
+**增量模型**
 
-Cronut lumbersexual fingerstache asymmetrical, single-origin coffee roof party unicorn. Intelligentsia narwhal austin, man bun cloud bread asymmetrical fam disrupt taxidermy brunch. Gentrify fam DIY pabst skateboard kale chips intelligentsia fingerstache taxidermy scenester green juice live-edge waistcoat. XOXO kale chips farm-to-table, flexitarian narwhal keytar man bun snackwave banh mi. Semiotics pickled taiyaki cliche cold-pressed. Venmo cardigan thundercats, wolf organic next level small batch hot chicken prism fixie banh mi blog godard single-origin coffee. Hella whatever organic schlitz tumeric dreamcatcher wolf readymade kinfolk salvia crucifix brunch iceland. Literally meditation four loko trust fund. Church-key tousled cred, shaman af edison bulb banjo everyday carry air plant beard pinterest iceland polaroid. Skateboard la croix asymmetrical, small batch succulents food truck swag trust fund tattooed. Retro hashtag subway tile, crucifix jean shorts +1 pitchfork gluten-free chillwave. Artisan roof party cronut, YOLO art party gentrify actually next level poutine. Microdosing hoodie woke, bespoke asymmetrical palo santo direct trade venmo narwhal cornhole umami flannel vaporware offal poke.
+- **优点**
+  1. 增强客户对系统的信心
+  2. 降低系统失败风险
+  3. 提高系统可靠性
+  4. 提高系统的稳定性和可维护性 
+- **缺点**
+  1. 增量粒度难以选择
+  2. 确定所有的基本业务服务比较困难 
 
-* Hexagon shoreditch beard
-* Intelligentsia narwhal austin
-* Literally meditation four
-* Microdosing hoodie woke
+**螺旋模型**
 
-Wayfarers lyft DIY sriracha succulents twee adaptogen crucifix gastropub actually hexagon raclette franzen polaroid la croix. Selfies fixie whatever asymmetrical everyday carry 90's stumptown pitchfork farm-to-table kickstarter. Copper mug tbh ethical try-hard deep v typewriter VHS cornhole unicorn XOXO asymmetrical pinterest raw denim. Skateboard small batch man bun polaroid neutra. Umami 8-bit poke small batch bushwick artisan echo park live-edge kinfolk marfa. Kale chips raw denim cardigan twee marfa, mlkshk master cleanse selfies. Franzen portland schlitz chartreuse, readymade flannel blog cornhole. Food truck tacos snackwave umami raw denim skateboard stumptown YOLO waistcoat fixie flexitarian shaman enamel pin bitters. Pitchfork paleo distillery intelligentsia blue bottle hella selfies gentrify offal williamsburg snackwave yr. Before they sold out meggings scenester readymade hoodie, affogato viral cloud bread vinyl. Thundercats man bun sriracha, neutra swag knausgaard jean shorts. Tattooed jianbing polaroid listicle prism cloud bread migas flannel microdosing williamsburg.
+- **优点**
+  1. 设计上的灵活性,可以在项目的各个阶段进行变更
+  2. 以小的分段来构建大型系统,使[成本计算](http://wiki.mbalib.com/wiki/%E6%88%90%E6%9C%AC%E8%AE%A1%E7%AE%97)变得简单容易
+  3. 客户始终参与每个阶段的开发,保证了项目不偏离正确方向以及项目的可控性
+  4. 随着项目推进,客户始终掌握项目的最新信息 , 从而他或她能够和管理层有效地交互
+  5. 客户认可这种公司内部的开发方式带来的良好的沟通和高质量的产品。
+- **缺点**
+  1. 采用螺旋模型需要具有相当丰富的风险评估经验和专门知识，在风险较大的项目开发中，如果未能够及时标识风险，势必造成重大损失。
+  2. 过多的迭代次数会增加开发成本，延迟提交时间。
 
-Echo park try-hard irony tbh vegan pok pok. Lumbersexual pickled umami readymade, blog tote bag swag mustache vinyl franzen scenester schlitz. Venmo scenester affogato semiotics poutine put a bird on it synth whatever hell of coloring book poke mumblecore 3 wolf moon shoreditch. Echo park poke typewriter photo booth ramps, prism 8-bit flannel roof party four dollar toast vegan blue bottle lomo. Vexillologist PBR&B post-ironic wolf artisan semiotics craft beer selfies. Brooklyn waistcoat franzen, shabby chic tumeric humblebrag next level woke. Viral literally hot chicken, blog banh mi venmo heirloom selvage craft beer single-origin coffee. Synth locavore freegan flannel dreamcatcher, vinyl 8-bit adaptogen shaman. Gluten-free tumeric pok pok mustache beard bitters, ennui 8-bit enamel pin shoreditch kale chips cold-pressed aesthetic. Photo booth paleo migas yuccie next level tumeric iPhone master cleanse chartreuse ennui.
+#### (2) 简述 UP 的三大特点，其中哪些内容体现了用户驱动的开发，哪些内容体现风险驱动的开发？ 
+
+- 统一过程(Unified Process, UP)是一种构造面向对象系统的迭代软件开发过程。
+
+
+- 特点
+
+  - 以User Case 驱动的（体现了用户驱动的开发）
+
+    - ![]({{site.baseurl}}/assets/img/use_case.png)
+    - User Case：用户对系统的业务需求
+    - 用例图促使我们从系统对用户的价值方面来考虑问题，是站在用户的角度出发，以人为本。并且用例图不仅能确定用户的需求，还可以驱动系统设计、实现和测试的进行，也就是说用例可以驱动开发过程。
+  - 以体系结构为中心的 （体现了用户驱动的开发）
+    - ![]({{site.baseurl}}/assets/img/architecture.png)
+    - 软件系统的构架是从不同的角度描述即将构造的系统。构架刻画了系统的整体设计，去掉了细节部分，突出了系统的重要特性。
+  - 迭代、增量的开发（体现了风险驱动的开发）
+    - 迭代：工作流中的步骤
+    - 增量：产品中增加的部分
+    - 首先迭代过程就是用来处理一组用例的，这些用例组合起来就能够扩展所开发产品的可用性。其次迭代过程要解决最突出的风险问题。只有这样后续的迭代过程才能建立在前一次迭代过程的基础上。
+
+
+​
+
+#### (3) UP 四个阶段的划分准则是什么？关键的里程碑是什么？
+
+- UP的四个阶段：初始、细化、构造和移交
+- 划分准则：里程碑与时间。每个阶段本质上是两个里程碑之间的时间跨度
+- 关键： 里程碑的关键用途是能够帮助管理人员在进入下一个阶段之前据此作出某些意义重大的决定。还可以跟踪每个阶段所投入的时间和其他开销。这些对项目的控制和发展都是很有用的：
+  - 第一阶段：主要目的是建立项目的范围和版本,确定项目目标的可行性和稳定性,结交结果包括需求和用例（生命周期目标里程碑）
+  - 第二阶段：主要目的是对问题域进行分析,建立系统需求和架构,确定实现的可行性和稳定性,提交结果包括系统架构,问题领域、修改后的需求及项目开发计划等相关文档 (生命周期结构里程碑)
+  - 第三阶段：增量式开发可以交付给用户的软件产品（初始功能里程碑）
+  - 第四阶段：主要目的是将软件产品交付给用户（产品发布里程碑）
+    ​
+
+
+#### (4)  IT 项目管理中，“工期、质量、范围/内容” 三个元素中，在合同固定条件下，为什么说“范围/内容”是项目团队是易于控制的
+
+- 工期、质量都是由客户决定的，已经在合同中固定下来，项目团队一般是不能控制的
+
+
+- 而范围/内容，是指交付具有规定特征和功能的产品或服务所必须完成的工作，它确定了完成的项目需要做些什么，不需要做些什么。这些是项目团队较为熟悉的方面，应该由团队控制。
+- 补充：
+  - 对于IT项目来说，往往客户前期对整个项目范围并没有清晰的了解，如何才能很好地做好项目管理，这就需要项目团队帮客户理清真正需要的需求，做到优先排序，才会为项目后续的开展提供坚实的基础。所以项目团队对于“范围/内容”这方面是比较容易控制的。
+  - 而且，国内签订的合同一般比较简单，很少对项目范围有明确的规定，特别是IT软件项目。
+
+#### (5) 为什么说，UP 为企业按固定节奏生产、固定周期发布软件产品提供了依据？
+
+- 因为UP的其中一个特点就是迭代开发。而UP中的关键实践
+- ![]({{site.baseurl}}/assets/img/iteration.png)
+- 由上图可知，在这种生命周期方法中，开发被组织成一系列固定的周期(如三个星期)小项目，称为迭代；每次迭代都产生经过测试、集成并可执行的局部系统。每次迭代都具有各自的需求分析、设计、实现和测试活动。由此，企业便能按照固定节奏生产，固定周期发布软件产品。
+
+### 2. 项目管理使用
+
+- 团队的任务Kanban
