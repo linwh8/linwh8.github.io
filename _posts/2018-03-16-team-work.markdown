@@ -7,11 +7,13 @@ img:software.jpg # Add image post (optional)
 tags: [Teamwork] # add tag
 ---
 
-> One man may hit the mark, another blunder; but heed not these distinctions. Only from the alliance of the one, working with and through the other, are great things born.
->
-> \- **Antoine de Saint-Exupery**
+
 
 ### 1. 简答题
+
+> One man may hit the mark, another blunder; but heed not these distinctions. Only from the alliance of the one, working with and through the other, are great things born.
+>
+> -**Antoine de Saint-Exupery**
 
 #### (1) 简述瀑布模型、增量模型、螺旋模型(含原型方法)的优缺点
 
