@@ -103,3 +103,7 @@ tags: [Team, Work] # add tag
 ### 2. 项目管理使用
 
 - 团队的任务Kanban
+
+  ![psp2.1]({{site.baseurl}}/assets/img/kanban.png)
+
+  ​
