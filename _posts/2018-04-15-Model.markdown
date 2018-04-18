@@ -1,0 +1,83 @@
+---
+layout: post
+title: Team Work
+date: 2018-04-15 00:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: workflow.jpg # Add image post (optional)
+tags: [Model] # add tag
+---
+
+> 
+>
+> **“The secret of change is to focus all of your energy not on fighting the old, but on building the new.”**
+>
+> – Socrates, Greek Philosopher
+>
+> 
+
+### 1. 用例建模
+
+- 阅读 Asg_RH 文档，绘制用例图。Hotel Reserve 用例图如下：
+
+   ![lesson6_use_case]({{site.baseurl}}/assets/img/lesson6_use_case.png)
+
+- 选择熟悉的定旅馆在线服务系统（或移动 APP），并满足要求：(1)对比 Asg_RH 用例图，请用色彩标注出创新用例或子用例;(2)尽可能识别外部系统，并用色彩标注新的外部系统和服务。
+
+  - 选择我经常使用的携程网，绘制的用例图如下：
+
+     ![lesson6_use_case_1]({{site.baseurl}}/assets/img/lesson6_use_case_1.png)
+
+  - 携程网较Asg_RH用例图的创新之处
+
+    - 在搜索旅馆的时候，可以输入（1）**关键字**；可以将选择的结果增加（2）**筛选条件**
+    - 在选择旅馆的时候，可以查看（3）**评论** ；可以查看酒店周边（4）**地图**
+    - 外部系统主要是增加了 （5）**地图系统**
+
+- 对比两个时代、不同地区产品的用例图，总结在项目早期，发现创新的思路与方法
+
+  - 在项目的早期，可以参考已经存在的类似项目，通过改善其缺陷、不合理的地方，来发现创新的角度；
+  - 而且不一定需要参考类似项目，现在计算机视觉领域有一种很流行的方法叫transfer，自然也是可以应用到项目的实际开发中，把其他类别的项目的special idea transfer 到现有的项目中，然后做一个fine-tune。
+  - 最后呢，如果实在不参考的情况下创新，那最根本的是要从用户需求入手。通过开展大量用户调查，总结出用户迫切需要的功能，然后将其定位创新的目标。
+
+- 使用 SCRUM 方法，在b用例图基础上，编制某定旅馆开发的需求 
+
+  | ID   | Name | Imp  | Est  | How to demo                        | Notes        |
+  | ---- | ---- | ---- | ---- | ---------------------------------- | ------------ |
+  | 1    | 查询酒店 | 100  | 14   | 填写目的地、入住、离开时间、关键字，然后执行搜索           | 用户可对搜索结果进行排序 |
+  | 2    | 预订房间 | 80   | 10   | 选择酒店、选择房间类型、选择房间数量，然后提交订单          | 预订失败需要有反馈    |
+  | 3    | 确认订单 | 60   | 8    | 填写个人信息，包括有效证件、姓名、入住人数、联系方式等，然后确认订单 | 有效证件，联系方式必填  |
+  | 4    | 完成付款 | 40   | 6    | 选择付款方式，完成付款                        | 支付失败要有反馈     |
+  |      |      |      |      |                                    |              |
+
+  ​
+
+### 2. 业务建模
+
+- 携程预订酒店的活动图 
+
+  ![lesson6_activity]({{site.baseurl}}/assets/img/lesson6_activity.png)
+
+  - 通过流程图，可以清晰地展示业务的整个流程。在流程图中，每个动作状态都是一个用例。这样一来，一旦绘制出酒店预订业务的流程图，便能通过流程图中的动作状态很快的找到所有酒店用例。
+
+- 以中国银行为例
+
+  ![lesson6_activity1]({{site.baseurl}}/assets/img/lesson6_activity1.png)
+
+- 淘宝退货流程图
+
+  ![lesson6_activity2]({{site.baseurl}}/assets/img/lesson6_activity2.png)
+
+- 三种用例文本的优点和缺点
+
+  - 摘要
+    - 优点：快速、简洁
+    - 缺点： 较为粗糙
+    - 摘要，在我们电影售票网站的启动阶段，帮助我们确定项目需要的功能与范围，以及需要做的一些需求分析。
+  - 非正式
+    - 优点：快速、简洁
+    - 缺点：虽然比摘要详细，但仍很粗糙，不够正式
+    - 非正式用例文本主要用于我们项目的早期需求分析阶段。
+  - 详述
+    - 优点：详细、正式
+    - 缺点：耗时长、繁琐
+    - 详述用例文本主要用于指导我们本次大作业的整个项目，用于明确业务流程中用例的所有步骤、变换与补充，是较为正式的文档。
