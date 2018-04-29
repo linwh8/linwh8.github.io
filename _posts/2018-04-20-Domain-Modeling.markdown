@@ -30,7 +30,7 @@ tags: [Model] # add tag
 
 给出系统的 E-R 模型（数据逻辑模型）:(使用的建模工具：MySQL Workbench) 
 
-![lessson7database]({{site.baseurl}}/assets/img/lessson7database.png)
+![lessson7database]({{site.baseurl}}/assets/img/lessson7database.PNG)
 
 导出的脚本如下：
 
