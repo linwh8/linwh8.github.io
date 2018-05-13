@@ -31,3 +31,4 @@ tags: [Model] # add tag
 #### 2）研究淘宝退货流程活动图，对退货业务对象状态建模
 
 - ![lesson8_state]({{site.baseurl}}/assets/img/lesson8_state_model_taobao.png)
+
