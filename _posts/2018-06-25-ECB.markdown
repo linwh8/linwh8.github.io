@@ -1,0 +1,35 @@
+---
+layout: post
+title: ECB
+date: 2018-06-25 00:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: workflow.jpg # Add image post (optional)
+tags: [Model] # add tag
+---
+
+> 
+>
+> **“The secret of change is to focus all of your energy not on fighting the old, but on building the new.”**
+>
+> – Socrates, Greek Philosopher
+>
+> 
+
+
+
+### 使用 ECB 实现 make reservation 用例的详细设计（包含用例简介，顺序图，类图）
+
+- 用例简介
+  - 用户通过前端提交订单到服务器
+  - 服务器跳转至支付页面
+  - 用户通过前端付款，提交到服务器
+  - 服务器请求第三方支付返回成功页面
+- 顺序图
+  - ![lesson16_seq]({{site.baseurl}}/assets/img/lesson16_seq.png)
+- 类图
+  - ![lesson16_class]({{site.baseurl}}/assets/img/lesson16_class.png)
+
+### 将逻辑设计类图映射到实际项目框架的包图。用树形结构表述实现的包和类
+
+![lesson16_package]({{site.baseurl}}/assets/img/lesson16_package.png)
+
